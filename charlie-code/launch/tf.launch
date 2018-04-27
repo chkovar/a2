@@ -1,0 +1,10 @@
+<launch>
+	<node pkg="tf" type="static_transform_publisher" name="current_to_base" args="0 0 0.838 0 0.191986 0 /base_link /zed_current_frame 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="center_to_center" args="0 0 0 0 0 0 /ZED_center /zed_center 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="depth_to_depth" args="0 0 0 0 0 0 /zed_depth_frame /depth_frame 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="scan_tf" args="0 0 0 0 0 0 /zed_current_frame /pointcloud_to_laserscan_node 100"/>
+<node pkg="tf" type="static_transform_publisher" name="frame_tf" args="0 0 0 0 0 0 /base_link /camera_frame 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="linesCloud" args="0 0 0 0 0 0 /base_link /line_tracking 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="ldmrs" args="0 0 0 0 0 0 /base_link /ldmrs_mount_link 100"/>
+</launch>
+ 

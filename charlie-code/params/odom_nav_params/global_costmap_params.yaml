@@ -1,0 +1,21 @@
+global_costmap:
+  global_frame: '/map'
+  robot_base_frame: '/base_link'
+  update_frequency: 20.0
+  publish_frequency: 5.0
+  width: 100.0
+  height: 100.0
+  resolution: 0.025
+  origin_x: -50
+  origin_y: -50
+  static_map: false
+  rolling_window: false
+
+plugins:
+ - 
+   name: obstacle_layer
+   type: "costmap_2d:ObstacleLayer"
+ - 
+   name: inflation
+   type: "costmap_2d:InflationLayer"
+

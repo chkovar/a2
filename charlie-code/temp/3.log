@@ -1,0 +1,187 @@
+[0m[ INFO] [1493329700.929154178]: Starting node...[0m
+[0m[ INFO] [1493329701.075384865]: Initializing nodelet with 4 worker threads.[0m
+[33m[ WARN] [1493329702.863463704]: TF_OLD_DATA ignoring data from the past for frame zed_initial_frame at time 1.49333e+09 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained[0m
+[0m[ INFO] [1493329702.873283374]: /rtabmap/rtabmap(maps): grid_cell_size             = 0.050000[0m
+[0m[ INFO] [1493329702.873339232]: /rtabmap/rtabmap(maps): grid_incremental           = false[0m
+[0m[ INFO] [1493329702.873370726]: /rtabmap/rtabmap(maps): grid_size                  = 0.000000[0m
+[0m[ INFO] [1493329702.873401648]: /rtabmap/rtabmap(maps): grid_eroded                = false[0m
+[0m[ INFO] [1493329702.873428562]: /rtabmap/rtabmap(maps): grid_footprint_radius      = 0.000000[0m
+[0m[ INFO] [1493329702.873453445]: /rtabmap/rtabmap(maps): map_filter_radius          = 0.000000[0m
+[0m[ INFO] [1493329702.873482181]: /rtabmap/rtabmap(maps): map_filter_angle           = 30.000000[0m
+[0m[ INFO] [1493329702.873506075]: /rtabmap/rtabmap(maps): map_cleanup                = true[0m
+[0m[ INFO] [1493329702.873528668]: /rtabmap/rtabmap(maps): map_negative_poses_ignored = false[0m
+[0m[ INFO] [1493329702.873550480]: /rtabmap/rtabmap(maps): cloud_output_voxelized     = true[0m
+[0m[ INFO] [1493329702.873573385]: /rtabmap/rtabmap(maps): cloud_subtract_filtering   = false[0m
+[0m[ INFO] [1493329702.873597696]: /rtabmap/rtabmap(maps): cloud_subtract_filtering_min_neighbors = 2[0m
+[0m[ INFO] [1493329702.883543345]: /rtabmap/rtabmap(maps): octomap_tree_depth         = 16[0m
+[0m[ INFO] [1493329702.883608521]: /rtabmap/rtabmap(maps): octomap_occupancy_thr      = 0.500000[0m
+[0m[ INFO] [1493329703.107693904]: rtabmap: frame_id      = camera_link[0m
+[0m[ INFO] [1493329703.107760902]: rtabmap: map_frame_id  = map[0m
+[0m[ INFO] [1493329703.107806296]: rtabmap: tf_delay      = 0.050000[0m
+[0m[ INFO] [1493329703.107847473]: rtabmap: tf_tolerance  = 0.100000[0m
+[0m[ INFO] [1493329703.107877250]: rtabmap: odom_sensor_sync   = false[0m
+[0m[ INFO] [1493329704.401286639]: Setting RTAB-Map parameter "Mem/IncrementalMemory"="true"[0m
+[0m[ INFO] [1493329704.403142897]: Setting RTAB-Map parameter "Mem/InitWMWithAllNodes"="false"[0m
+[0m[ INFO] [1493329706.921943193]: RTAB-Map detection rate = 1.000000 Hz[0m
+[0m[ INFO] [1493329706.923442755]: rtabmap: Deleted database "/home/ubuntu/.ros/rtabmap.db" (--delete_db_on_start is set).[0m
+[0m[ INFO] [1493329706.923516364]: rtabmap: Using database from "/home/ubuntu/.ros/rtabmap.db".[0m
+[0m[ INFO] [1493329707.072266788]: rtabmap: Database version = "0.11.13".[0m
+[0m[ INFO] [1493329707.183712335]: /rtabmap/rtabmap: queue_size    = 10[0m
+[0m[ INFO] [1493329707.183778552]: /rtabmap/rtabmap: rgbd_cameras = 1[0m
+[0m[ INFO] [1493329707.183808641]: /rtabmap/rtabmap: approx_sync   = true[0m
+[0m[ INFO] [1493329707.184062941]: Setup depth callback[0m
+[0m[ INFO] [1493329707.472769596]: 
+/rtabmap/rtabmap subscribed to (approx sync):
+   /rtabmap/odom,
+   /camera/rgb/image_rect_color,
+   /camera/depth/image_rect_color,
+   /camera/rgb/camera_info[0m
+[0m[ INFO] [1493329707.472932536]: rtabmap 0.11.13 started...[0m
+[33m[ WARN] [1493329712.472986773]: /rtabmap/rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10).
+/rtabmap/rtabmap subscribed to (approx sync):
+   /rtabmap/odom,
+   /camera/rgb/image_rect_color,
+   /camera/depth/image_rect_color,
+   /camera/rgb/camera_info[0m
+[33m[ WARN] [1493329717.473191846]: /rtabmap/rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10).
+/rtabmap/rtabmap subscribed to (approx sync):
+   /rtabmap/odom,
+   /camera/rgb/image_rect_color,
+   /camera/depth/image_rect_color,
+   /camera/rgb/camera_info[0m
+[33m[ WARN] [1493329722.473435481]: /rtabmap/rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10).
+/rtabmap/rtabmap subscribed to (approx sync):
+   /rtabmap/odom,
+   /camera/rgb/image_rect_color,
+   /camera/depth/image_rect_color,
+   /camera/rgb/camera_info[0m
+[33m[ WARN] [1493329727.473672526]: /rtabmap/rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10).
+/rtabmap/rtabmap subscribed to (approx sync):
+   /rtabmap/odom,
+   /camera/rgb/image_rect_color,
+   /camera/depth/image_rect_color,
+   /camera/rgb/camera_info[0m
+[33m[ WARN] [1493329732.473847894]: /rtabmap/rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10).
+/rtabmap/rtabmap subscribed to (approx sync):
+   /rtabmap/odom,
+   /camera/rgb/image_rect_color,
+   /camera/depth/image_rect_color,
+   /camera/rgb/camera_info[0m
+[33m[ WARN] [1493329737.474179855]: /rtabmap/rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10).
+/rtabmap/rtabmap subscribed to (approx sync):
+   /rtabmap/odom,
+   /camera/rgb/image_rect_color,
+   /camera/depth/image_rect_color,
+   /camera/rgb/camera_info[0m
+[33m[ WARN] [1493329742.474426549]: /rtabmap/rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10).
+/rtabmap/rtabmap subscribed to (approx sync):
+   /rtabmap/odom,
+   /camera/rgb/image_rect_color,
+   /camera/depth/image_rect_color,
+   /camera/rgb/camera_info[0m
+[33m[ WARN] [1493329747.496869953]: /rtabmap/rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10).
+/rtabmap/rtabmap subscribed to (approx sync):
+   /rtabmap/odom,
+   /camera/rgb/image_rect_color,
+   /camera/depth/image_rect_color,
+   /camera/rgb/camera_info[0m
+[33m[ WARN] [1493329752.497326908]: /rtabmap/rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If[0m[ INFO] [1493329701.188270102]: Initializing nodelet with 4 worker threads.[0m
+[33m[ WARN] [1493329702.558866053]: TF_OLD_DATA ignoring data from the past for frame zed_initial_frame at time 1.49333e+09 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained[0m
+[0m[ INFO] [1493329704.818103828]: 
+/rtabmap/rgbd_odometry subscribed to (approx sync):
+   /camera/rgb/image_rect_color,
+   /camera/depth/image_rect_color,
+   /camera/rgb/camera_info[0m
+[33m[ WARN] [1493329709.818269503]: /rtabmap/rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+/rtabmap/rgbd_odometry subscribed to (approx sync):
+   /camera/rgb/image_rect_color,
+   /camera/depth/image_rect_color,
+   /camera/rgb/camera_info[0m
+[33m[ WARN] [1493329714.818446899]: /rtabmap/rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+/rtabmap/rgbd_odometry subscribed to (approx sync):
+   /camera/rgb/image_rect_color,
+   /camera/depth/image_rect_color,
+   /camera/rgb/camera_info[0m
+[33m[ WARN] [1493329719.818633410]: /rtabmap/rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+/rtabmap/rgbd_odometry subscribed to (approx sync):
+   /camera/rgb/image_rect_color,
+   /camera/depth/image_rect_color,
+   /camera/rgb/camera_info[0m
+[33m[ WARN] [1493329724.818824271]: /rtabmap/rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+/rtabmap/rgbd_odometry subscribed to (approx sync):
+   /camera/rgb/image_rect_color,
+   /camera/depth/image_rect_color,
+   /camera/rgb/camera_info[0m
+[33m[ WARN] [1493329729.819004579]: /rtabmap/rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+/rtabmap/rgbd_odometry subscribed to (approx sync):
+   /camera/rgb/image_rect_color,
+   /camera/depth/image_rect_color,
+   /camera/rgb/camera_info[0m
+[33m[ WARN] [1493329734.819396976]: /rtabmap/rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+/rtabmap/rgbd_odometry subscribed to (approx sync):
+   /camera/rgb/image_rect_color,
+   /camera/depth/image_rect_color,
+   /camera/rgb/camera_info[0m
+[33m[ WARN] [1493329739.819612435]: /rtabmap/rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+/rtabmap/rgbd_odometry subscribed to (approx sync):
+   /camera/rgb/image_rect_color,
+   /camera/depth/image_rect_color,
+   /camera/rgb/camera_info[0m
+[33m[ WARN] [1493329744.819818212]: /rtabmap/rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+/rtabmap/rgbd_odometry subscribed to (approx sync):
+   /camera/rgb/image_rect_color,
+   /camera/depth/image_rect_color,
+   /camera/rgb/camera_info[0m
+[33m[ WARN] [1493329749.820100724]: /rtabmap/rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+/rtabmap/rgbd_odometry subscribed to (approx sync):
+   /camera/rgb/image_rect_color,
+   /camera/depth/image_rect_color,
+   /camera/rgb/camera_info[0m
+[33m[ WARN] [1493329754.820345806]: /rtabmap/rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+/rtabmap/rgbd_odometry subscribed to (approx sync):
+   /camera/rgb/image_rect_color,
+   /camera/depth/ topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10).
+/rtabmap/rtabmap subscribed to (approx sync):
+   /rtabmap/odom,
+   /camera/rgb/image_rect_color,
+   /camera/depth/image_rect_color,
+   /camera/rgb/camera_info[0m
+[33m[ WARN] [1493329757.497610253]: /rtabmap/rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10).
+/rtabmap/rtabmap subscribed to (approx sync):
+   /rtabmap/odom,
+   /camera/rgb/image_rect_color,
+   /camera/depth/image_rect_color,
+   /camera/rgb/camera_info[0m
+[33m[ WARN] [1493329762.497935400]: /rtabmap/rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10).
+/rtabmap/rtabmap subscribed to (approx sync):
+   /rtabmap/odom,
+   /camera/rgb/image_rect_color,
+   /camera/depth/image_rect_color,
+   /camera/rgb/camera_info[0m
+[33m[ WARN] [1493329767.498190635]: /rtabmap/rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10).
+/rtabmap/rtabmap subscribed to (approx sync):
+   /rtabmap/odom,
+   /camera/rgb/image_rect_color,
+   /camera/depth/image_rect_color,
+   /camera/rgb/camera_info[0m
+[33m[ WARN] [1493329772.498457530]: /rtabmap/rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10).
+/rtabmap/rtabmap subscribed to (approx sync):
+   /rtabmap/odom,
+   /camera/rgb/image_rect_color,
+   /camera/depth/image_rect_color,
+   /camera/rgb/camera_info[0m
+[33m[ WARN] [1493329777.498693503]: /rtabmap/rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10).
+/rtabmap/rtabmap subscribed to (approx sync):
+   /rtabmap/odom,
+   /camera/rgb/image_rect_color,
+   /camera/depth/image_rect_color,
+   /camera/rgb/camera_info[0m
+[33m[ WARN] [1493329782.498915681]: /rtabmap/rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10).
+/rtabmap/rtabmap subscribed to (approx sync):
+   /rtabmap/odom,
+   /camera/rgb/image_rect_color,
+   /camera/depth/image_rect_color,
+   /camera/rgb/camera_info[0m
+[33m[ WARN] [1493329787.499120792]: /rtabmap/rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If 

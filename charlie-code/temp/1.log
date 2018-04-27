@@ -1,0 +1,89 @@
+[0m[ INFO] [1493329688.160050370]: Initializing nodelet with 4 worker threads.[0m
+ZED (Init) >> Depth mode: Performance
+ZED (Init) >> Video mode: HD720@30
+ZED (Init) >> WARNING: Corrupted frames detected. Check that your ZED is connected to a USB3.0 port
+[0m[ INFO] [1493329697.931889834]: Error code: Low USB Bandwidth[0m
+ZED (Init) >> Depth mode: Performance
+ZED (Init) >> Video mode: HD720@30
+ZED (Init) >> WARNING: Corrupted frames detected. Check that your ZED is connected to a USB3.0 port
+[0m[ INFO] [1493329709.001235804]: Error code: Low USB Bandwidth[0m
+ZED (Init) >> Depth mode: Performance
+ZED (Init) >> Video mode: HD720@30
+ZED (Init) >> WARNING: Corrupted frames detected. Check that your ZED is connected to a USB3.0 port
+[0m[ INFO] [1493329719.675998150]: Error code: Low USB Bandwidth[0m
+ZED (Init) >> Depth mode: Performance
+ZED (Init) >> Video mode: HD720@30
+ZED (Init) >> WARNING: Corrupted frames detected. Check that your ZED is connected to a USB3.0 port
+[0m[ INFO] [1493329730.603955551]: Error code: Low USB Bandwidth[0m
+ZED (Init) >> Depth mode: Performance
+ZED (Init) >> Video mode: HD720@30
+ZED (Init) >> WARNING: Corrupted frames detected. Check that your ZED is connected to a USB3.0 port
+[0m[ INFO] [1493329741.568307908]: Error code: Low USB Bandwidth[0m
+ZED (Init) >> Depth mode: Performance
+ZED (Init) >> Video mode: HD720@30
+... logging to /home/ubuntu/.ros/log/327eded2-2b93-11e7-a353-00044b5ac42c/roslaunch-tegra-ubuntu-5070.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/home/ubuntu/catkin_ws/src/zed-wrapper/launch/zed.launch
+[1mstarted roslaunch server http://tegra-ubuntu:37169/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.7
+ * /zed/zed_description: <?xml version="1....
+ * /zed/zed_wrapper_node/depth_cam_info_topic: depth/camera_info
+ * /zed/zed_wrapper_node/depth_topic: depth/depth_regis...
+ * /zed/zed_wrapper_node/frame_rate: 60
+ * /zed/zed_wrapper_node/gpu_id: -1
+ * /zed/zed_wrapper_node/left_cam_info_topic: left/camera_info
+ * /zed/zed_wrapper_node/left_raw_topic: left/image_raw_color
+ * /zed/zed_wrapper_node/left_topic: left/image_rect_c...
+ * /zed/zed_wrapper_node/odometry_db: 
+ * /zed/zed_wrapper_node/odometry_topic: odom
+ * /zed/zed_wrapper_node/openni_depth_mode: 0
+ * /zed/zed_wrapper_node/point_cloud_topic: point_cloud/cloud...
+ * /zed/zed_wrapper_node/quality: 1
+ * /zed/zed_wrapper_node/resolution: 2
+ * /zed/zed_wrapper_node/rgb_cam_info_topic: rgb/camera_info
+ * /zed/zed_wrapper_node/rgb_raw_topic: rgb/image_raw_color
+ * /zed/zed_wrapper_node/rgb_topic: rgb/image_rect_color
+ * /zed/zed_wrapper_node/right_cam_info_topic: right/camera_info
+ * /zed/zed_wrapper_node/right_raw_topic: right/image_raw_c...
+ * /zed/zed_wrapper_node/right_topic: right/image_rect_...
+ * /zed/zed_wrapper_node/sensing_mode: 1
+ * /zed/zed_wrapper_node/svo_filepath: 
+ * /zed/zed_wrapper_node/zed_id: 0
+
+NODES
+  /zed/
+    zed_base_link1 (tf2_ros/static_transform_publisher)
+    zed_base_link3 (tf2_ros/static_transform_publisher)
+    zed_base_link4 (tf2_ros/static_transform_publisher)
+    zed_state_publisher (robot_state_publisher/state_publisher)
+    zed_wrapper_node (zed_wrapper/zed_wrapper_node)
+
+auto-starting new master
+[1mprocess[master]: started with pid [5084][0m
+[1mROS_MASTER_URI=http://localhost:11311[0m
+]2;/home/ubuntu/catkin_ws/src/zed-wrapper/launch/zed.launch http://localhost:11311
+[1msetting /run_id to 327eded2-2b93-11e7-a353-00044b5ac42c[0m
+[1mprocess[rosout-1]: started with pid [5097][0m
+started core service [/rosout]
+[1mprocess[zed/zed_base_link1-2]: started with pid [5110][0m
+[1mprocess[zed/zed_base_link3-3]: started with pid [5115][0m
+[1mprocess[zed/zed_base_link4-4]: started with pid [5122][0m
+[1mprocess[zed/zed_wrapper_node-5]: started with pid [5134][0m
+[1mprocess[zed/zed_state_publisher-6]: started with pid [5138][0m
+[zed/zed_state_publisher-6] killing on exit
+[zed/zed_base_link4-4] killing on exit
+[zed/zed_base_link3-3] killing on exit
+[zed/zed_base_link1-2] killing on exit
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m

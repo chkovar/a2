@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<package>
+  <name>charlie_code</name>
+  <version>0.0.0</version>
+  <description>The charlie_code package</description>
+
+  <maintainer email="spartanhaden@gmail.com">Haden Wasserbaech</maintainer>
+
+  <!-- One license tag required, multiple allowed, one license per tag -->
+  <!-- Commonly used license strings: -->
+  <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
+  <license>TODO</license>
+
+  <url type="website">https://github.com/MTU-Autobot/charlie-code</url>
+  <author email="spartanhaden@gmail.com">Haden Wasserbaech</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>robot_pose_ekf</build_depend>
+  <build_depend>razor_imu_9dof</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>python-serial</build_depend>
+  <build_depend>dynamic_reconfigure</build_depend>
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>robot_pose_ekf</run_depend>
+  <run_depend>razor_imu_9dof</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>nav_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>python-serial</run_depend>
+  <run_depend>dynamic_reconfigure</run_depend>
+</package>

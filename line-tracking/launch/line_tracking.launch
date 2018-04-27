@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="tf" type="static_transform_publisher" name="line_tracking_tf" args="0.1 0 0 0 0 0 /base_link /lineTracking 100" />
+    <node pkg="tf" type="static_transform_publisher" name="line_tracking_tf2" args="0.1 0 0 0 0 0 /base_link /line_tracking 100" />
+    <node name="line_tracking" pkg="line_tracking" type="line_tracking" output="screen" />
+</launch>

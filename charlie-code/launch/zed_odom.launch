@@ -1,0 +1,4 @@
+<launch>
+	<include file="$(find zed_wrapper)/launch/zed_camera.launch"/>
+ 	<!-- <include file="$(find charlie_code)/launch/interfacer.launch"/>-->
+</launch>

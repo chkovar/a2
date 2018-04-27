@@ -1,0 +1,11 @@
+<launch>
+ <!-- Depth_image to Laser_Scan -->
+ <node pkg="depthimage_to_laserscan" type="depthimage_to_laserscan" name="depthimage_to_laserscan">
+        <param name="scan_height" value="100"/>
+        <param name="output_frame_id" value="/base_frame"/>
+        <param name="range_min" value="0.3"/>
+        <param name="range_max" value="60"/>
+        <remap from="image" to="/camera/depth/image_rect_color"/>
+	<remap from="scan" to ="/camera/scan"/>
+ </node>
+</launch>
